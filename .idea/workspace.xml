@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="master branch">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="master branch" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,6 +134,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="master branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="master branch" />
+    <MESSAGE value="initial branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial branch" />
   </component>
 </project>

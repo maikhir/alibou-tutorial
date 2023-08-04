@@ -9,12 +9,14 @@ eureka:
  #           defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
             defaultZone: http://localhost:8761/eureka/
 application:
-    name: school
     config:
-       # student-url: http://localhost:8090/api/v1/students
-
-        #   import: optional:configserver:http://localhost:8888
+        students-url: http://localhost:8222/api/v1/students
 spring:
+    application:
+        name: school
+    config:
+        import: optional:configserver:http://localhost:8888/
+
     datasource:
 #        driver-class-name: org.postgresql.Driver
         driver-class-name: org.h2.Driver

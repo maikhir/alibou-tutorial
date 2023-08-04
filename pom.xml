@@ -7,6 +7,8 @@
 		<module>gateway</module>
 		<module>discovery</module>
 		<module>config-server</module>
+		<module>student</module>
+		<module>school</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>

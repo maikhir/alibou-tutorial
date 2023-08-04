@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="ends with intercomm to student from school, before we starts with gateway and config">
+    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="starts with gateway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/java/de/hirthe/school/client/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/de/hirthe/school/client/StudentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +25,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -81,7 +90,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.de.hirthe.school.SchoolApplication">
+  <component name="RunManager" selected="Application.StudentApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.hirthe.configserver.ConfigServerApplication" />
       <module name="config-server" />
@@ -108,12 +117,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="de.hirthe.gateway.GatewayApplication" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.hirthe.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SchoolApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.hirthe.student.SchoolApplication" />
       <module name="school" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="de.hirthe.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SchoolApplication" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="de.hirthe.school.SchoolApplication" />
+      <module name="school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="de.hirthe.school.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,26 +169,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="de.hirthe.school.SchoolApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.hirthe.school.SchoolApplication" />
-      <module name="school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="de.hirthe.school.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.de.hirthe.school.SchoolApplication" />
         <item itemvalue="Application.SchoolApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.StudentApplication" />
         <item itemvalue="Application.DiscoveryApplication" />
-        <item itemvalue="Application.ConfigServerApplication" />
+        <item itemvalue="Application.SchoolApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -180,8 +202,40 @@
       <option name="project" value="LOCAL" />
       <updated>1691140520693</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ends with intercomm to student from school, before we starts with gateway and config">
+      <created>1691140841809</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691140841809</updated>
+    </task>
+    <task id="LOCAL-00004" summary="disable RestController EntryPoint methods for unused checks">
+      <created>1691140908131</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691140908131</updated>
+    </task>
+    <task id="LOCAL-00005" summary="starts with gateway">
+      <created>1691141250262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691141250262</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -193,6 +247,26 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -200,7 +274,9 @@
     <MESSAGE value="initial branch" />
     <MESSAGE value="add architecture picture in the README.md" />
     <MESSAGE value="ends with intercomm to student from school, before we starts with gateway and config" />
-    <option name="LAST_COMMIT_MESSAGE" value="ends with intercomm to student from school, before we starts with gateway and config" />
+    <MESSAGE value="disable RestController EntryPoint methods for unused checks" />
+    <MESSAGE value="starts with gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="starts with gateway" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

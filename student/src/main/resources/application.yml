@@ -11,9 +11,10 @@ eureka:
 
 spring:
     application:
-        name: students
-#    config:
-#        import: optional:configserver:http://localhost:8888
+        name: student
+    config:
+        import: optional:configserver:http://localhost:8888/
+
     datasource:
 #        driver-class-name: org.postgresql.Driver
         driver-class-name: org.h2.Driver

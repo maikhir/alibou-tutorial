@@ -11,7 +11,7 @@ eureka:
 application:
     name: school
     config:
-       # student-url: http://localhost:8090/api/v1/students
+        student-url: http://localhost:8222/api/v1/students
 
         #   import: optional:configserver:http://localhost:8888
 spring:

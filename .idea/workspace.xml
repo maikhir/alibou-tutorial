@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="finished with gateway">
+    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="change url from school ms to student ms in the application.yml">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/schools.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/students.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/de/hirthe/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/de/hirthe/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/student/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +99,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StudentApplication">
+  <component name="RunManager" selected="Application.SchoolApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="de.hirthe.configserver.ConfigServerApplication" />
       <module name="config-server" />
@@ -127,11 +140,11 @@
       </method>
     </configuration>
     <configuration name="SchoolApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="de.hirthe.student.SchoolApplication" />
+      <option name="MAIN_CLASS_NAME" value="de.hirthe.school.SchoolApplication" />
       <module name="school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.hirthe.student.*" />
+          <option name="PATTERN" value="de.hirthe.school.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,7 +170,7 @@
       <module name="student" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="de.hirthe.student.controller.*" />
+          <option name="PATTERN" value="de.hirthe.student.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,10 +181,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SchoolApplication" />
-        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.StudentApplication" />
+        <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.DiscoveryApplication" />
-        <item itemvalue="Application.SchoolApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691157912340</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change url from school ms to student ms in the application.yml">
+      <created>1691409567642</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691409567642</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change url from school ms to student ms in the application.yml">
+      <created>1691409623373</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691409623373</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -292,7 +319,8 @@
     <MESSAGE value="disable RestController EntryPoint methods for unused checks" />
     <MESSAGE value="starts with gateway" />
     <MESSAGE value="finished with gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished with gateway" />
+    <MESSAGE value="change url from school ms to student ms in the application.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="change url from school ms to student ms in the application.yml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

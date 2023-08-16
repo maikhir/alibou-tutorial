@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="change url from school ms to student ms in the application.yml">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/schools.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/students.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/de/hirthe/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/de/hirthe/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="change url from school ms to student ms in the application.yml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

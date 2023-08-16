@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="change url from school ms to student ms in the application.yml">
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/schools.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/students.yml" afterDir="false" />
+    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="move all config to config-server and tested">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/de/hirthe/configserver/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/java/de/hirthe/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -40,6 +27,20 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="maikhir" />
+        <option name="repository" value="alibou-tutorial" />
+      </RepoCoordinatesHolder>
+    </option>
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3f7526b5-5c34-4f6c-82f5-0806f450dc5a" />
+        <option name="url" value="https://github.com/maikhir/alibou-tutorial.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -253,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691409623373</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="move all config to config-server and tested">
+      <created>1692169644345</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1692169644345</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -278,7 +286,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="configserver" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -320,7 +328,8 @@
     <MESSAGE value="starts with gateway" />
     <MESSAGE value="finished with gateway" />
     <MESSAGE value="change url from school ms to student ms in the application.yml" />
-    <option name="LAST_COMMIT_MESSAGE" value="change url from school ms to student ms in the application.yml" />
+    <MESSAGE value="move all config to config-server and tested" />
+    <option name="LAST_COMMIT_MESSAGE" value="move all config to config-server and tested" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

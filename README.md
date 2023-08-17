@@ -2,6 +2,11 @@ here is the master
 
 ![img.png](resources/img.png)
 
-current status: begin with gateway https://www.youtube.com/watch?v=KJ0cSvYj41c&list=PL41m5U3u3wwm-27nQk1rUqJRIRtnUoqMj
+next steps to put all microservices in container based on podman
 
-start with external config: https://www.youtube.com/watch?v=KJ0cSvYj41c&list=PL41m5U3u3wwm-27nQk1rUqJRIRtnUoqMj
+- zipkin is in podman ✔️
+- gateway
+- config-server
+- discovery
+- schools
+- students

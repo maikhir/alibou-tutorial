@@ -25,3 +25,8 @@ spring:
     database: postgresql
     #        database-platform: org.hibernate.dialect.PostgreSQLDialect
     database-platform: org.hibernate.dialect.H2Dialect
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

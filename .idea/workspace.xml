@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="clean">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="b8d29511-1ff2-4105-9930-9bdfc25d63cf" name="Changes" comment="clean" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +257,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692258357316</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="clean">
+      <option name="closed" value="true" />
+      <created>1692258877741</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692258877741</updated>
+    </task>
+    <task id="LOCAL-00013" summary="clean">
+      <option name="closed" value="true" />
+      <created>1692258911953</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692258911953</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">

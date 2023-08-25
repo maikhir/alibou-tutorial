@@ -4,7 +4,7 @@ here is the master
 
 next steps to put all microservices in container based on podman
 
-- zipkin ❌
+- zipkin ✅
 - gateway ✅
 - config-server ✅
 - discovery ✅
